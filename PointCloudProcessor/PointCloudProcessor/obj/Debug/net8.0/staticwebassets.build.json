@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sb+9S3qNX0liBvHvMb9Zvqn6cjFU4sBxcCC8kAz1sZI=",
+  "Source": "PointCloudProcessor.Api",
+  "BasePath": "_content/PointCloudProcessor.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

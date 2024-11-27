@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTK" Version="4.8.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PointCloudProcessor.Application\PointCloudProcessor.Application.csproj" />
+    <ProjectReference Include="..\PointCloudProcessor.Domain\PointCloudProcessor.Domain.csproj" />
+    <ProjectReference Include="..\PointCloudProcessor.Infrastructure\PointCloudProcessor.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,304 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor\\PointCloudProcessor.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Application\\PointCloudProcessor.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Application\\PointCloudProcessor.Application.csproj",
+        "projectName": "PointCloudProcessor.Application",
+        "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Application\\PointCloudProcessor.Application.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj": {
+                "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj"
+              },
+              "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\PointCloudProcessor.Infrastructure.csproj": {
+                "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\PointCloudProcessor.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj",
+        "projectName": "PointCloudProcessor.Domain",
+        "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\PointCloudProcessor.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\PointCloudProcessor.Infrastructure.csproj",
+        "projectName": "PointCloudProcessor.Infrastructure",
+        "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\PointCloudProcessor.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj": {
+                "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AssimpNet": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor\\PointCloudProcessor.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor\\PointCloudProcessor.Api.csproj",
+        "projectName": "PointCloudProcessor.Api",
+        "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor\\PointCloudProcessor.Api.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Application\\PointCloudProcessor.Application.csproj": {
+                "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Application\\PointCloudProcessor.Application.csproj"
+              },
+              "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj": {
+                "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Domain\\PointCloudProcessor.Domain.csproj"
+              },
+              "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\PointCloudProcessor.Infrastructure.csproj": {
+                "projectPath": "D:\\Digital Solutions 324 SL\\PointCloudProcessor\\PointCloudProcessor.Infrastructure\\PointCloudProcessor.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
